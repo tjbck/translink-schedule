@@ -1,0 +1,17 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url('/assets/fonts/Satoshi-Variable.woff2');
+	font-display: swap;
+}
+
+html * {
+	@apply leading-relaxed;
+	font-family: 'Satoshi', 'BlinkMacSystemFont', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica',
+		'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Matter',
+		sans-serif !important;
+	word-break: break-word;
+}
